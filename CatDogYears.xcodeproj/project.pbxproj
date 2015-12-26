@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		189AD7DD1C0089BD00FC5AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AD7DC1C0089BD00FC5AB9 /* AppDelegate.swift */; };
-		189AD7DF1C0089BD00FC5AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AD7DE1C0089BD00FC5AB9 /* ViewController.swift */; };
 		189AD7E21C0089BD00FC5AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189AD7E01C0089BD00FC5AB9 /* Main.storyboard */; };
 		189AD7E41C0089BD00FC5AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189AD7E31C0089BD00FC5AB9 /* Assets.xcassets */; };
 		189AD7E71C0089BD00FC5AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189AD7E51C0089BD00FC5AB9 /* LaunchScreen.storyboard */; };
 		189AD7F21C0089BD00FC5AB9 /* CatDogYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AD7F11C0089BD00FC5AB9 /* CatDogYearsTests.swift */; };
 		189AD7FD1C0089BD00FC5AB9 /* CatDogYearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AD7FC1C0089BD00FC5AB9 /* CatDogYearsUITests.swift */; };
+		189AD80B1C0089F500FC5AB9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AD80A1C0089F500FC5AB9 /* MainVC.swift */; };
+		189AD80F1C04511C00FC5AB9 /* Cats & Dogs in Resources */ = {isa = PBXBuildFile; fileRef = 189AD80E1C04511C00FC5AB9 /* Cats & Dogs */; };
+		189AD8111C04516E00FC5AB9 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 189AD8101C04516E00FC5AB9 /* meow.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		189AD7D91C0089BD00FC5AB9 /* CatDogYears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatDogYears.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189AD7DC1C0089BD00FC5AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		189AD7DE1C0089BD00FC5AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189AD7E11C0089BD00FC5AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189AD7E31C0089BD00FC5AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189AD7E61C0089BD00FC5AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,10 @@
 		189AD7F81C0089BD00FC5AB9 /* CatDogYearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatDogYearsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189AD7FC1C0089BD00FC5AB9 /* CatDogYearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDogYearsUITests.swift; sourceTree = "<group>"; };
 		189AD7FE1C0089BD00FC5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189AD80A1C0089F500FC5AB9 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = ../MainVC.swift; sourceTree = "<group>"; };
+		189AD80E1C04511C00FC5AB9 /* Cats & Dogs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Cats & Dogs"; sourceTree = "<group>"; };
+		189AD8101C04516E00FC5AB9 /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = "<group>"; };
+		189AD8131C0451D900FC5AB9 /* bark.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bark.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +102,13 @@
 		189AD7DB1C0089BD00FC5AB9 /* CatDogYears */ = {
 			isa = PBXGroup;
 			children = (
+				189AD80E1C04511C00FC5AB9 /* Cats & Dogs */,
 				189AD7DC1C0089BD00FC5AB9 /* AppDelegate.swift */,
-				189AD7DE1C0089BD00FC5AB9 /* ViewController.swift */,
+				189AD80A1C0089F500FC5AB9 /* MainVC.swift */,
 				189AD7E01C0089BD00FC5AB9 /* Main.storyboard */,
 				189AD7E31C0089BD00FC5AB9 /* Assets.xcassets */,
+				189AD8131C0451D900FC5AB9 /* bark.m4a */,
+				189AD8101C04516E00FC5AB9 /* meow.wav */,
 				189AD7E51C0089BD00FC5AB9 /* LaunchScreen.storyboard */,
 				189AD7E81C0089BD00FC5AB9 /* Info.plist */,
 			);
@@ -228,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189AD8111C04516E00FC5AB9 /* meow.wav in Resources */,
 				189AD7E71C0089BD00FC5AB9 /* LaunchScreen.storyboard in Resources */,
+				189AD80F1C04511C00FC5AB9 /* Cats & Dogs in Resources */,
 				189AD7E41C0089BD00FC5AB9 /* Assets.xcassets in Resources */,
 				189AD7E21C0089BD00FC5AB9 /* Main.storyboard in Resources */,
 			);
@@ -255,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189AD7DF1C0089BD00FC5AB9 /* ViewController.swift in Sources */,
 				189AD7DD1C0089BD00FC5AB9 /* AppDelegate.swift in Sources */,
+				189AD80B1C0089F500FC5AB9 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
